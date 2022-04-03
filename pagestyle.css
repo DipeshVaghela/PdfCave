@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Overlock', cursive;
+    
+}
+input.searchField{
+    width: 102%;
+    padding: 10px 20px 10px 20px;   
+    outline: none;
+    border: none;
+    border-radius: 50px;
+}   
+
+
+button.searchButton{
+    width: 45px;
+    height: 45px;
+    color: white;
+    outline: none;
+    border: none;
+    display: inline;
+    background-color: blue;
+    border-radius: 45px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+    transition: width 1s;
+   
+}
+
+button.searchButton:hover{
+    background-color: black;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+a.downloadButton{
+    color: white;
+    display: inline-block;
+    padding: 5px 20px; 
+    margin-top: auto;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    background-color: green;
+    border-radius: 40px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+a.downloadButton:hover{
+    background-color: purple;
+    color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+img.book{
+    width:150px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+}
+div.card{
+    background-color: white;
+    border: none;
+    position: relative;
+    top: 0px;
+    border-radius: 10px;
+    transition: top 1s;
+}
+
+div.card:hover{
+   
+    top: -10px;
+}
+
