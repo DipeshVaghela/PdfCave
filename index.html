@@ -243,8 +243,10 @@
                     else {
                         $http({
                             method: "GET",
-                            url: "https://pdf-cave.herokuapp.com/books?branch=" + branch + "&sem=" + sem,
-                            
+                            url: "https://pdf-cave-2022.herokuapp.com/books?branch=" + branch + "&sem=" + sem,
+                            headers:{
+                                
+                            }
                         }).then(function mySuccess(response) {
                             $scope.books = response.data;
                             $scope.total = $scope.books.length;
@@ -270,7 +272,7 @@
                 $scope.allBooks = function () {
                     $http({
                         method: "GET",
-                        url: "https://pdf-cave.herokuapp.com/books/allbooks",
+                        url: "https://pdf-cave-2022.herokuapp.com/books/allbooks",
                     }).then(function mySuccess(response) {
                         $scope.books = response.data;
                         $scope.total = $scope.books.length;
@@ -284,7 +286,7 @@
 
                 $http({
                     method: "GET",
-                    url: "https://pdf-cave.herokuapp.com/books/recentlyAdded",
+                    url: "https://pdf-cave-2022.herokuapp.com/books/recentlyAdded",
                 }).then(function mySuccess(response) {
                     $scope.recentlyAddedBooks = response.data;
                 }, function myError(response) {
