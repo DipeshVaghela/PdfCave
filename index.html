@@ -272,7 +272,7 @@
                 $scope.allBooks = function () {
                     $http({
                         method: "GET",
-                        url: "  ",
+                        url: "https://pdf-cave-2022.herokuapp.com/books/recentlyAdded",
                     }).then(function mySuccess(response) {
                         $scope.books = response.data;
                         $scope.total = $scope.books.length;
