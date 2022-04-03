@@ -2,12 +2,12 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    "mongodb+srv://PdfCave2022:PdfCave@2022@pdfcavedatabase.i5mje.mongodb.net/PdfCaveDataBase?retryWrites=true&w=majority",
+    "mongodb+srv://PdfCave2022:9558900155@pdfcavedatabase2022.i5mje.mongodb.net/PdfCaveDataBase2022?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      useCreateIndex: true,
-      useFindAndModify: false,
+      // useCreateIndex: true,
+      // useFindAndModify: false,
     }
   )
   .then(() => {
